@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<section id="page1" class="page active">
+  <h1 class="title">✨ Happy 25th Birthday ✨</h1>
+
+  <div class="cake">
+    <div class="candles"></div>
+    <div class="cake-top"></div>
+    <div class="cake-body"></div>
+    <div class="cake-bottom"></div>
+  </div>
+
+  <button class="blow-btn" onclick="blowCandles()">🎈 Blow the candles</button>
+</section>
+
+<!-- PAGE STAR WOW -->
+<section id="pageStar" class="page hidden">
+  <div class="star-wrapper">
+    <div class="gold-star">
+      <!-- Star rays -->
+      <div class="ray-horizontal"></div>
+      <div class="ray-diagonal-1"></div>
+      <div class="ray-diagonal-2"></div>
+      
+      <!-- Star content -->
+      <div class="star-content">
+        <h1 class="star-name">YASMINE</h1>
+        
+      </div>
+    </div>
+    
+    <!-- Star description -->
+    <div class="star-description">
+      <p>In a universe filled with endless light, some stars are seen… and some are felt.</p>
+      <p>Tonight, one star shines quietly. Not brighter than the others, just closer to the heart.</p>
+      <p class="star-name-highlight">⭐ Yasmine Elżbieta Deltenre </p>
+      <p class="observation-date">Observed on the night the world became kinder — 06/01/2001</p>
+      <p class="final-message">I didn't choose this star for you. I simply realized it had always been yours.</p>
+      <p class="moon-emoji">🌙</p>
+    </div>
+  </div>
+</section>
+
+<!-- PAGE 2: Lettre postale -->
+<section id="page2" class="page hidden">
+  <div class="letter">
+    <h2 class="declaration" id="declaration"></h2>
+  </div>
+</section>
+
+<audio id="bgMusic" src="happy-birthday.mp3" loop></audio>
+<script src="script.js"></script>
+</body>
+</html>
